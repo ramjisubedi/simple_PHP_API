@@ -1,11 +1,9 @@
 <?php
 class Utilities{
  
-    public function getPaging($page, $total_rows, $records_per_page, $page_url){
- 
+    public function getPaging($page, $total_rows, $records_per_page, $page_url){ 
         // paging array
-        $paging_arr=array();
- 
+        $paging_arr=array(); 
         // button for first page
         $paging_arr["first"] = $page>1 ? "{$page_url}page=1" : "";
  
